@@ -31,8 +31,9 @@ class Image
           end
         end
       end
+     output_image
   end
-# blur-1
+
   def output_image
     @picture.each do |data|
       puts data.join
@@ -47,8 +48,7 @@ image = Image.new([
 [0, 0, 0, 0]
 ])
 
-# blur-1-output
+
 image.output_image
-# blur-2-output
 puts
 image.blur!
