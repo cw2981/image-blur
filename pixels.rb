@@ -53,10 +53,10 @@ image = Image.new([
 [0, 0, 0, 0, 0, 1]
 ])
 
-# original image
+
 image.output_image
 puts
 
-# blurred image
+
 image.blur!(2)
 image.output_image
